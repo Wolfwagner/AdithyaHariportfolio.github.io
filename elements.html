@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AI Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+				<div id="intro">
+					<h1>Artificial Intelligence <br> projects</h1>
+					<p>NumPy, Tensorflow, Pytorch, Python, Pandas </p>
+				</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About</a></li>
+							<li><a href="generic.html">Autonomy & Robotics</a></li>
+							<li class="active"><a href="elements.html">Artificial Intelligence</a></li>
+							<li><a href="mech.html">Mechanical Engineering</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/adithyahari/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Wolfwagner" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>  
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Posts -->
+					<section class="posts">
+						<article>
+							<header>
+								<span class="date">November 2023</span>
+								<h2>Reinforcement Learning - Snake game</h2>
+							</header>
+							<a href=""class="image fit"><img src="./AI pics/snake.gif" alt="" /></a>
+							<p> 
+								An AI agent was trained using reinforcement learning to independently play the game. Developed in Python, the project utilized the NumPy and Pygame libraries. The agent interacted with the game environment through a defined Markov Decision Process (MDP), encompassing states, actions, and rewards. At each step, the AI snake made decisions to move in different directions and received rewards or penalties based on position of food and obstacles in the configuration space. The implementation involved a TD Q-learning algorithm to determine the optimal actions for the agent.
+							</p>
+							<ul class="actions special">
+								<li><a href="" class="button">View Project</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">November 2023</span>
+								<h2>Image Classification with neural networks</h2>
+							</header>
+							<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP10%20-%20Neural%20Network%202" class="image fit"><img src="./AI pics/project-1.png" alt="" /></a>
+							<p> 
+								An image classification algorithm was developed using Python, NumPy, and PyTorch to categorize objects within images. Leveraging neural networks, non-linear activations, and multi-layer extensions of the linear perceptron, the algorithm was trained and validated on a CIFAR-10 dataset comprising RGB images with dimensions of 31x31 pixels. To enhance convergence and minimize loss, the algorithm utilized a ReLU activation function and L2 regularization techniques. The network architecture featured a minimum of four hidden layers, including Convolutional Neural Network (CNN) layers tailored for image recognition tasks. Upon testing with unseen images, the algorithm demonstrated an accuracy rate of 78%, showcasing its effectiveness in classifying objects within images.
+							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP10%20-%20Neural%20Network%202" class="button">View Project</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">October 2023</span>
+								<h2>POS Tagging with Hidden Markov Models: Viterbi Algorithms</h2>
+							</header>
+							<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP7%20-%20Hidden%20Markov%20Models%201" class="image fit"><img src="./AI pics/hmm.png" alt="" /></a>
+							<p>
+								Implemented Part-of-speech (POS) tagging using Hidden Markov Models (HMMs). Two tagging functions were implemented on the Brown dataset: a Baseline Tagger, which assigned tags based on the most frequent tag associated with each word during training. The accuracy of unseen words was 67%. The Viterbi Tagger, employed the Viterbi decoding algorithm to estimate tag probabilities based on transitions and emissions. This involved counting occurrences of tags and words, computing smoothed probabilities, constructing the Viterbi trellis, and back-tracing to find the best path. Laplace smoothing was used to handle unseen words and tags. The multi-tag accuracy was 94% while the unseen word accuracy was 64%.
+							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP7%20-%20Hidden%20Markov%20Models%201" class="button">View Project</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">September 2023</span>
+								<h2>Movie Review classifier : Naive Bayes approach</h2>
+							</header>
+							<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP2%20-%20Bigram%20Naive%20Bayes" class="image fit"><img src="./AI pics/movie.png" alt="" /></a>
+							<p>
+                                A binary sentiment classifier for movie reviews was built using the Naive Bayes algorithm. The dataset, comprising a large set of movie reviews, was processed to recommend only movies with positive reviews. The implementation included initializing with a bigram mixture model, where each bigram represented a sequence of two consecutive words from a review. The main task was to implement a function, which computed the mixture of unigram and bigram bag-of-words models. This involved calculating probabilities for both unigram and bigram models, combining them into a mixture model using a parameter λ, and tuning Laplace smoothing parameters to prevent zero probabilities. Experimentation with various parameters and preprocessing techniques, such as stemming, lowercase transformation, and stop word removal, was conducted to achieve an accuracy of 97%.
+							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP2%20-%20Bigram%20Naive%20Bayes" class="button">View Project</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">October 2023</span>
+								<h2>BFS search for Eightpuzzle and WordLadder problem</h2>
+							</header>
+							<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP3%20-%20Search%20Part%201" class="image fit"><img src="./AI pics/puzzle.jpg" alt="" /></a>
+							<p>
+								Devised the Best first search algorithm in Python to solve two different search problems: Eight Puzzle and Word Ladder. For the Word Ladder problem, a BFS algorithm was devised to iteratively explore neighboring states until the shortest path to the goal was determined, with a dictionary maintaining a record of visited states. For the Eight Puzzle problem was addressed using a BFS search approach enhanced by a Manhattan heuristic. Neighbors were generated for each state and defined a comparison method for tiebreaking in the priority queue. The addition of heuristics significantly improved the search efficiency.
+							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP3%20-%20Search%20Part%201" class="button">View Project</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<span class="date">September 2023</span>
+								<h2>A* search algorithm for Multi-Goal Grid</h2>
+							</header>
+							<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP4%20-%20Search%20Part%202%20(Grid%20Search)" class="image fit"><img src="./AI pics/grid.png" alt="" /></a>
+							<p>
+                                The project entails developing an A* search algorithm tailored for Multi-Goal Grid scenarios. This specialized algorithm will efficiently navigate grid environments with multiple goal locations, finding optimal paths to each goal while considering obstacles and terrain costs. Through heuristic evaluation and intelligent state exploration, the algorithm will identify the most effective routes to all designated goals, facilitating efficient traversal in complex grid-based environments. The implementation will encompass heuristics, state representations, and search strategies specifically optimized for Multi-Goal Grid scenarios, enabling robust and versatile pathfinding capabilities in diverse grid layouts.
+							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP4%20-%20Search%20Part%202%20(Grid%20Search)" class="button">View Project</a></li>
+							</ul>
+						</article>
+					</section>
+
+					<section class="split contact">
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">+1 (217) 841-4611</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">ah64@illinois.edu</a></p>
+						</section>
+						<section>
+							<h3>LinkedIn</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/adithyahari/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+						<section>
+							<h3>Github</h3>
+							<ul class="icons alt">
+								<li><a href="https://github.com/Wolfwagner" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+					
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

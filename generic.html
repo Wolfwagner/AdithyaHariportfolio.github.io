@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robotics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+				<div id="intro">
+					<h1>Autonomy and Robotics Projects</h1>
+					<p>ROS Noetic, ROS2, SLAM, Rviz, Gazebo, Python</p>
+				</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About</a></li>
+							<li class="active"><a href="generic.html">Autonomy & Robotics</a></li>
+							<li><a href="elements.html">Artificial Intelligence</a></li>
+							<li><a href="mech.html">Mechanical Engineering</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/adithyahari/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Wolfwagner" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>  
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									<span class="date">December 2023</span>
+									<h2>RTAB-vSLAM evaluation in various environments</h2>
+								</header>
+								<a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/RTAB"class="image fit"><img src="./Robotics Projects pics/Rtab.png" alt="" /></a>
+								<p> Executed RGB-D SLAM using recorded images from two data sequences captured by ZED cameras, achieving
+									90% mapping accuracy <br>
+									Implemented a ROS node to extract co-ordinates of estimated and ground truth trajectories for precise analysis</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/RTAB" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">October 2023</span>
+									<h2>EKF implementation using Kalman filter</h2>
+								</header>
+								<a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/Coding%20Exercise%202" class="image fit"><img src="./Robotics Projects pics/ekf.png" alt="" /></a>
+								<p>Implemented an algorithm on ROS2 and python by fusing GPS and inertial measurements with an Extended Kalman filter (EKF). Integrating inertial measurements estimates subtle chnages in position and orientation. After running two rosbags, certain callback functions help extract the angular velocity and acceleration in xyz axis and xy trajectories. Plots of Euler angles, Gyroscope bias, covariance of position,etc. of the robot  give a visual representation of the robustness of kalman filters </p>
+								<ul class="actions special">
+									<li><a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/Coding%20Exercise%202" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">September 2023</span>
+									<h2>PID-Controlled Trajectory Following and Control for Differential Drive Robots</h2>
+								</header>
+								<a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/Problem%20set%202" class="image fit"><img src="./Robotics Projects pics/ps2.png" alt="" /></a>
+								<p>
+									This project focuses on controlling a differential drive robot to accurately follow a desired trajectory using PID controllers. The robot's kinematics, described in the inertial frame, involve regulating linear and angular velocities to minimize errors in angle and distance to the goal position. Components include implementing Euler integration for state updates, computing error metrics, utilizing PID controllers for velocity regulation, and defining desired trajectories. By optimizing PID controller parameters and output limits, the project aims to achieve precise trajectory following, enhancing the robot's capabilities for autonomous navigation and robotics research applications.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/Problem%20set%202" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">November 2023</span>
+									<h2>Advanced Sensor Fusion for Robotic Localization and Navigation</h2>
+								</header>
+								<a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/problem%20set%203" class="image fit"><img src="./Robotics Projects pics/ps3.png" alt="" /></a>
+								<p>
+									Exploring advanced techniques in robot localization, this project delves into the intricacies of sensor fusion for precise navigation. From modeling the limitations of MEMS Inertial Measurement Sensors to integrating GPS-based position measurements and encoder data, participants traverse a spectrum of scenarios. Through the implementation of Kalman filtering and Extended Kalman filtering techniques, the project explores the nuances of state estimation in robotics. Analyzing outputs such as position covariance, velocity covariance, bias covariance and trajectory comparisons gave insights into the challenges and solutions shaping modern robot navigation.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/Wolfwagner/Mobile-Robotics/tree/main/problem%20set%203" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">October 2023</span>
+									<h2>Geometry-Based Configuration for Robot Space Planning</h2>
+								</header>
+								<a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP5%20-%20Robot%20Geometry" class="image fit"><img src="./Robotics Projects pics/project-3.gif" alt="" /></a>
+								<p>
+									
+Implemented a Python algorithm utilizing the NumPy and Pygame libraries, coupled with Configuration Space Planning, to automate the navigation of an 'alien' through a maze towards a predefined goal state. The maze layout necessitates the alien to adhere to waypoints, while also detecting maze boundaries and transforming into alternative shapes to maneuver through narrow passages. Employing a search strategy aimed at discovering the most cost-effective path to the goal node, the algorithm optimizes runtime efficiency by exclusively considering K-nearest neighbors.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/Wolfwagner/Artificial-Intelligence/tree/main/MP5%20-%20Robot%20Geometry" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">September 2023</span>
+									<h2>Pure Pursuit Algorithm for Autonomous Car</h2>
+								</header>
+								<a href="#" class="image fit"><img src="./Robotics Projects pics/psa1.png" alt="" /></a>
+								<p>
+									Developed a Python-based lateral and longitudinal controller capable of autonomously guiding a vehicle along a predefined racetrack within the ROS and Gazebo software environments. The longitudinal controller governs the vehicle's target speed by analyzing the track's curvature and the vehicle's current state based on upcoming waypoints. For instance, the speed is adjusted accordingly for straight paths or impending turns. Meanwhile, the lateral control utilizes a Pure Pursuit algorithm to determine the appropriate steering angle, considering factors such as the lookahead distance and the angle between the look-ahead line and the wheelbase. These controllers were designed based on the geometric principles of the Pure Pursuit algorithm.
+								</p>
+								<ul class="actions special">
+									<li><a href="#" class="button">View Project</a></li>
+								</ul>
+							</article>
+						</section>
+
+						<section class="split contact">
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+1 (217) 841-4611</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">ah64@illinois.edu</a></p>
+							</section>
+							<section>
+								<h3>LinkedIn</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/adithyahari/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h3>Github</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/Wolfwagner" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
